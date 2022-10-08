@@ -1,0 +1,46 @@
+{
+  "name": "cv",
+  "title": "Mariana Ivanova’s professional CV",
+  "short_title": "Mariana’s CV",
+  "description": "An interactive copy of Mariana Ivanova’s professional résumé",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/msivanova/cv.git"
+  },
+  "homepage": "https://msivanova.github.io",
+  "author": {
+    "name": "Mariana Ivanova",
+    "email": "marianaaivanovaa@gmail.com",
+    "url": "https://msivanova.github.io"
+  },
+  "private": true,
+  "keywords": [
+    "mariana",
+    "ivanova",
+    "resume",
+    "cv",
+    "curriculum vitae"
+  ],
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "postinstall": "cp -r node_modules/dev-assets/config/root/. ."
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "cv-assets": "https://github.com/methodev/cv-assets#v1.10.3",
+    "dev-assets": "https://github.com/methodev/dev-assets#v1.3.7"
+  }
+}
