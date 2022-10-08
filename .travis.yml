@@ -5,7 +5,7 @@ script:
   - yarn generate
   - cp 'README.md' dist
 before_install:
-  - openssl aes-256-cbc -K $encrypted_7fbec3c13698_key -iv $encrypted_7fbec3c13698_iv -in .env.enc -out .env -d
+  - openssl aes-256-cbc -K $encrypted_3c84dcdc6bbe_key -iv $encrypted_3c84dcdc6bbe_iv -in .env.enc -out .env -d
 branches:
   only:
     - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
