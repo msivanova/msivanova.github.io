@@ -13,11 +13,11 @@
     "type": "git",
     "url": "git://github.com/msivanova/cv.git"
   },
-  "homepage": "https://marianaivanova.netlify.app",
+  "homepage": "https://msivanova.github.io",
   "author": {
     "name": "Mariana Ivanova",
     "email": "marianaaivanovaa@gmail.com",
-    "url": "https://marianaivanova.netlify.app"
+    "url": "https://msivanova.github.io"
   },
   "private": true,
   "keywords": [
