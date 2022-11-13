@@ -3,7 +3,7 @@
   "title": "Mariana Ivanova’s professional CV",
   "short_title": "Mariana’s CV",
   "description": "An interactive copy of Mariana Ivanova’s professional résumé",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     }
   },
   "devDependencies": {
-    "cv-assets": "https://github.com/methodev/cv-assets#v1.10.7",
+    "cv-assets": "https://github.com/methodev/cv-assets#v1.10.8",
     "dev-assets": "https://github.com/methodev/dev-assets#v1.4.0"
   }
 }
