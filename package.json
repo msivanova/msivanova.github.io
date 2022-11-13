@@ -5,10 +5,6 @@
   "description": "An interactive copy of Mariana Ivanova’s professional résumé",
   "version": "1.0.3",
   "license": "UNLICENSED",
-  "engines": {
-    "node": "14.x",
-    "yarn": "1.x"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/msivanova/cv.git"
